@@ -4,6 +4,10 @@
 Helmet Detection web demo using YOLOv10 and Streamlit.
 
 ## How to use
+Firstly, clone the repository to local:
+```
+$ git clone https://github.com/anhbui0803/AIO2024_Working_Safety_Monitoring.git
+```
 ### Option 1: Using conda environment
 1. Create new conda environment and install required dependencies:
 ```
@@ -11,7 +15,7 @@ $ conda create -n <env_name> -y python=3.11
 $ conda activate <env_name>
 $ pip3 install -r requirements.txt
 ```
-2. Host streamlit app
+2. Host streamlit app:
 ```
 $ streamlit run app.py
 ```
@@ -27,7 +31,7 @@ $ virtualenv <env_name>
 $ <env_name>\Scripts\activate
 # python -m pip install -r requirements.txt
 ```
-2. Host streamlit app
+2. Host streamlit app:
 ```
 $ python -m streamlit run app.py
 ```
