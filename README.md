@@ -31,7 +31,10 @@ $ virtualenv <env_name>
 $ <env_name>\Scripts\activate
 # python -m pip install -r requirements.txt
 ```
-2. Host streamlit app:
+2. Host streamlit app: 
 ```
 $ python -m streamlit run app.py
 ```
+
+## Screenshot of the demo
+![image](https://github.com/anhbui0803/AIO2024_Working_Safety_Monitoring/assets/94179304/5e6ad36d-19fc-428d-8d02-0c36b8bc9f48)
